@@ -2,6 +2,8 @@
 
 这是可迁移到其他电脑的 sloth v2 宠物包。安装后，在 ChatGPT/Codex 桌面应用的 `Settings > Pets` 中刷新并选择“懒懒”。
 
+使用 Codex 自动生成。
+
 ## 自动安装
 
 ### macOS / Linux
