@@ -1,8 +1,8 @@
-# lanlan 打包校验摘要
+# sloth 打包校验摘要
 
 - 打包日期：2026-09-18
-- 来源：当前电脑实际安装并使用的 lanlan 用户确认版
-- 宠物 ID：`lanlan`
+- 来源：当前电脑实际安装并使用的 sloth 用户确认版
+- 宠物 ID：`sloth`
 - 显示名：`懒懒`
 - `spriteVersionNumber`：2
 - 图集：PNG、RGBA、1536×2288

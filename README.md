@@ -1,6 +1,6 @@
 # 树懒 Codex 宠物包
 
-这是可迁移到其他电脑的 lanlan v2 宠物包。安装后，在 ChatGPT/Codex 桌面应用的 `Settings > Pets` 中刷新并选择“懒懒”。
+这是可迁移到其他电脑的 sloth v2 宠物包。安装后，在 ChatGPT/Codex 桌面应用的 `Settings > Pets` 中刷新并选择“懒懒”。
 
 ## 自动安装
 
@@ -30,16 +30,16 @@
 
 ## 手动安装
 
-把本包中的整个 `lanlan` 文件夹复制到宠物目录：
+把本包中的整个 `sloth` 文件夹复制到宠物目录：
 
-- macOS / Linux：`$CODEX_HOME/pets/lanlan`；未设置 `CODEX_HOME` 时为 `~/.codex/pets/lanlan`
-- Windows：`%CODEX_HOME%\pets\lanlan`；未设置 `CODEX_HOME` 时为 `%USERPROFILE%\.codex\pets\lanlan`
+- macOS / Linux：`$CODEX_HOME/pets/sloth`；未设置 `CODEX_HOME` 时为 `~/.codex/pets/sloth`
+- Windows：`%CODEX_HOME%\pets\sloth`；未设置 `CODEX_HOME` 时为 `%USERPROFILE%\.codex\pets\sloth`
 
-请保留 `lanlan/pet.json` 和 `lanlan/spritesheet.png` 的文件名与相对位置。
+请保留 `sloth/pet.json` 和 `sloth/spritesheet.png` 的文件名与相对位置。
 
 ## 覆盖与备份
 
-自动安装脚本发现已有 `lanlan` 时，不会直接删除旧版本，而会把它改名为同目录下带时间戳的 `lanlan.backup-...` 后再安装。
+自动安装脚本发现已有 `sloth` 时，不会直接删除旧版本，而会把它改名为同目录下带时间戳的 `sloth.backup-...` 后再安装。
 
 ## 校验
 

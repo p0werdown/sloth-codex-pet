@@ -1,10 +1,10 @@
 $ErrorActionPreference = "Stop"
 
 $PackageDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$SourceDir = Join-Path $PackageDir "lanlan"
+$SourceDir = Join-Path $PackageDir "sloth"
 $CodexRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $env:USERPROFILE ".codex" }
 $PetsDir = Join-Path $CodexRoot "pets"
-$TargetDir = Join-Path $PetsDir "lanlan"
+$TargetDir = Join-Path $PetsDir "sloth"
 $Timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $BackupDir = $null
 
@@ -24,10 +24,10 @@ $PetJson = Join-Path $SourceDir "pet.json"
 $Spritesheet = Join-Path $SourceDir "spritesheet.png"
 
 if (-not (Test-Path -LiteralPath $PetJson -PathType Leaf) -or -not (Test-Path -LiteralPath $Spritesheet -PathType Leaf)) {
-    throw "安装包不完整：找不到 lanlan/pet.json 或 lanlan/spritesheet.png。"
+    throw "安装包不完整：找不到 sloth/pet.json 或 sloth/spritesheet.png。"
 }
 
-Assert-Sha256 -Path $PetJson -Expected "cd04aa9d97274fbbcb82294c5a5860f46453899d21a5046806d208eef657c0ba"
+Assert-Sha256 -Path $PetJson -Expected "d5f947c32102cc831a7ce48301bbe06b258950426914dc23e8bda647ccc30bc0"
 Assert-Sha256 -Path $Spritesheet -Expected "a7f35a2f888b943fe175d142ec4435f7959e2f5d9a93942fc272ff606175417c"
 
 New-Item -ItemType Directory -Path $PetsDir -Force | Out-Null
@@ -52,7 +52,7 @@ catch {
     throw
 }
 
-Write-Host "lanlan 已安装到：$TargetDir"
+Write-Host "sloth 已安装到：$TargetDir"
 if ($BackupDir) {
     Write-Host "旧版本备份在：$BackupDir"
 }
