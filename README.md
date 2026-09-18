@@ -1,4 +1,4 @@
-# lanlan（懒懒）Codex 宠物包
+# 树懒 Codex 宠物包
 
 这是可迁移到其他电脑的 lanlan v2 宠物包。安装后，在 ChatGPT/Codex 桌面应用的 `Settings > Pets` 中刷新并选择“懒懒”。
 
